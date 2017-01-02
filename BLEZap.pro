@@ -1,4 +1,4 @@
-update=Friday, December 30, 2016 'AMt' 10:03:28 AM
+update=Sunday, 01 January 2017 'pmt' 14:32:10
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,5 +59,4 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=nordicsemi
-LibName31=modules
-LibName32=KevinsLib
+LibName31=KevinsLib
