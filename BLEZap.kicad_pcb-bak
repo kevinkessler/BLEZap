@@ -16,17 +16,13 @@
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal)
-    (32 B.Adhes user hide)
-    (33 F.Adhes user hide)
-    (34 B.Paste user hide)
-    (35 F.Paste user hide)
+    (34 B.Paste user)
+    (35 F.Paste user)
     (36 B.SilkS user)
     (37 F.SilkS user)
-    (38 B.Mask user hide)
+    (38 B.Mask user)
     (39 F.Mask user)
     (44 Edge.Cuts user)
-    (48 B.Fab user hide)
-    (49 F.Fab user hide)
   )
 
   (setup
