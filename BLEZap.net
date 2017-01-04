@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/kevin/Documents/KiCad/projects/BLEZap/BLEZap.sch)
-    (date "Monday, 02 January 2017 'pmt' 16:04:43")
+    (date "Tuesday, 03 January 2017 'pmt' 19:49:42")
     (tool "Eeschema 4.0.5")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -180,10 +180,10 @@
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive)))))
   (libraries
-    (library (logical conn)
-      (uri "/Library/Application Support/kicad/library/conn.lib"))
     (library (logical device)
       (uri "/Library/Application Support/kicad/library/device.lib"))
+    (library (logical conn)
+      (uri "/Library/Application Support/kicad/library/conn.lib"))
     (library (logical KevinsLib)
       (uri /Users/kevin/Documents/KiCad/libraries/KevinsLib.lib)))
   (nets
@@ -255,7 +255,7 @@
       (node (ref R4) (pin 1)))
     (net (code 28) (name /SWCLK)
       (node (ref U1) (pin 31))
-      (node (ref P1) (pin 2)))
+      (node (ref P1) (pin 3)))
     (net (code 29) (name /CFG_BTN)
       (node (ref U1) (pin 23))
       (node (ref P2) (pin 3)))
@@ -276,7 +276,7 @@
       (node (ref U1) (pin 8)))
     (net (code 35) (name /SWDIO)
       (node (ref U1) (pin 30))
-      (node (ref P1) (pin 3)))
+      (node (ref P1) (pin 2)))
     (net (code 36) (name "Net-(Q1-Pad1)")
       (node (ref R1) (pin 2))
       (node (ref Q1) (pin 1)))))

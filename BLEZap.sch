@@ -117,9 +117,9 @@ Wire Wire Line
 Wire Wire Line
 	6800 3300 6500 3300
 Text Label 6500 3200 0    60   ~ 0
-SWCLK
-Text Label 6500 3300 0    60   ~ 0
 SWDIO
+Text Label 6500 3300 0    60   ~ 0
+SWCLK
 $Comp
 L GND #PWR01
 U 1 1 58656B12
